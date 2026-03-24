@@ -20,5 +20,6 @@ index=* | timechart span=1m count
 ## Evidence
 ![Network Spike](results/screenshots/Network-Spike-Detection.png)
 
+
 ## Result
 A spike in activity was observed during Nmap scanning, indicating reconnaissance behavior.
