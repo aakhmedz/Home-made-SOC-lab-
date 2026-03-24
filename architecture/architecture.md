@@ -9,7 +9,6 @@ This lab is built using a Linux-based environment where attack activity is gener
 Used to simulate attacker behavior including:
 - Nmap scans
 - Hydra brute-force attacks
-- Netcat reverse shell access
 
 ### Linux Mint Host
 Serves as the primary system where logs are generated and collected:
