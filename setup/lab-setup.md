@@ -11,6 +11,7 @@ The lab uses native Linux log files as the primary data source for monitoring an
 
 ### Logs Collected
 -Monitor /var/log/auth.log : Authentication events 
+
 -Monitor /var/log/syslog : General system activity
 
 These logs were selected to capture:
@@ -24,6 +25,7 @@ The Splunk Universal Forwarder was installed on the Linux Mint host system to co
 
 ### Data Inputs Configured
 sudo ./splunk add monitor /var/log/auth.log 
+
 sudo ./splunk add monitor /var/log/syslog 
 
 Logs were forwarded in real-time to Splunk for indexing and analysis.
