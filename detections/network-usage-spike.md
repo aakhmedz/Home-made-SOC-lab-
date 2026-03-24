@@ -17,7 +17,7 @@ index=* | timechart span=1m count
 - General anomalous behavior
 
 ## Evidence
-![Network Detection](../results/screenshots/Network-Detection.png)
+![Network Detection](../results/screenshots/Network-Spike-Detection.png)
 
 ## Result
 A spike in activity was observed during Nmap scanning, indicating reconnaissance behavior.
