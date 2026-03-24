@@ -50,7 +50,7 @@ Privilege escalation attempts
 Detection and alerting via Splunk
 
 ## Reconnaissance - Nmap scan
-![Nmap Detection](results/screenshots/nmap_detection.png)
+![Nmap Detection](results/screenshots/Nmap_Detection.png)
 
 
 The attack begins with a reconnaissance phase where the attacker scans the target system using Nmap. Firewall logs (UFW) show repeated blocked connection attempts from the attacking IP (10.0.0.52), indicating systematic probing of ports to identify exposed services.
@@ -85,7 +85,7 @@ To detect malicious activity, custom alerts were created in Splunk. The brute fo
 This demonstrates how SIEM tools can be configured to detect suspicious patterns in real time. 
 
 ## SIEM Dashboard - Attack Visibility 
-![Security Dashboard](results/screenshot/Security-Dashboard.png)
+![Security Dashboard](results/screenshots/Security-Dashboard.png)
 
 
 A centralized Splunk dashboard was developed to visualize attack activity. The dashboard provides insights into:
@@ -99,7 +99,7 @@ Network anomalies
 This enables analysts to quickly identify and investigate suspicious behavior.
 
 ## Network Activity - Anomaly Detection
-![Network Spike](results/screenshot/Network-Spike-Detection.png)
+![Network Spike](results/screenshots/Network-Spike-Detection.png)
 
 
 Network traffic analysis reveals spikes in activity that align with the execution of scanning and brute force attacks. These anomalies provide additional context and help correlate attack timelines.
