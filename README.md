@@ -11,6 +11,7 @@ This project simulates a Security Operations Center (SOC) environment using a Li
 - Linux system logs (/var/log/auth.log, /var/log/syslog)
 
 ## Lab Architecture
+
 The lab consists of a Kali Linux virtual machine running on a Linux Mint host, with Splunk deployed on a separate laptop for centralized log collection and analysis.
 ![Lab Diagram](results/screenshots/Lab-Diagram.png)
 ![Security Dashboard](results/screenshots/Security-Dashboard.png)
