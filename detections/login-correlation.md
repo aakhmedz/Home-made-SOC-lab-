@@ -16,7 +16,7 @@ source="/var/log/auth.log"  ("Failed password" OR "Accepted password") | rex "fr
 - Credential compromise following brute-force attack
 
 ## Evidence
-![Login Detection](../results/screenshots/Login-detection.png)
+![Login Detection](../results/screenshots/Login-Detection.png)
 
 
 ## Result
