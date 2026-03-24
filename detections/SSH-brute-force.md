@@ -19,6 +19,5 @@ source="/var/log/auth.log"  "Failed password" | rex "from (?<src_ip>\d+\.\d+\.\d
 ## Evidence
 ![SSH Bruteforce](results/screenshots/SSH-Bruteforce-detection.png)
 
-
 ## Result
 Multiple failed login attempts were detected from the attacker IP during brute-force simulation.
