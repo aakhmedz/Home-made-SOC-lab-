@@ -50,7 +50,7 @@ Privilege escalation attempts
 Detection and alerting via Splunk
 
 ## Reconnaissance - Nmap scan
-![Nmap Detection](results/screenshots/Nmap_Detection.png)
+![Nmap Detection](results/screenshots/Nmap-Detection.png)
 
 
 The attack begins with a reconnaissance phase where the attacker scans the target system using Nmap. Firewall logs (UFW) show repeated blocked connection attempts from the attacking IP (10.0.0.52), indicating systematic probing of ports to identify exposed services.
