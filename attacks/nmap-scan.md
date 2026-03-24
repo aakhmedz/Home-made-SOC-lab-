@@ -1,10 +1,19 @@
-# Nmap Scan
+# Nmap Port Scan
+
+## MITRE ATT&CK MAPPING: T1046 (Network Service Scanning) 
 
 ## Command
-nmap -sS 10.0.0.23
+nmap -sS <target-ip>
+
+## Description
+Performed a SYN scan against the target system to identify open ports and simulate reconnaissance activity.
 
 ## Purpose
-Simulate reconnaissance activity by scanning open ports.
+Simulate attacker behavior during the reconnaissance phase.
 
-## Expected Outcome
-Increased network activity and connection attempts logged in Splunk.
+## Observed Behavior
+- Increased number of connection attempts
+- Spike in system activity logs
+
+## Detection Link
+Detected using network usage spike detection in Splunk.

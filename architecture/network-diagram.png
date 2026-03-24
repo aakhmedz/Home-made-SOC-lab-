@@ -1,0 +1,11 @@
+Kali Linux VM (Attacker)
+        ↓
+Linux Mint (Host System)
+  - /var/log/auth.log
+  - /var/log/syslog
+        ↓
+Splunk Universal Forwarder
+        ↓
+Splunk Enterprise (Laptop)
+        ↓
+Search, Alerts, Dashboard
