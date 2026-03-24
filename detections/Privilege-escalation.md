@@ -16,7 +16,7 @@ source="/var/log/auth.log" ("FAILED SU" OR "session opened for user root" OR "su
 - Attempt to gain root access after initial compromise
 
 ## Evidence
-![Privilege Escalation](../results/screenshots/priv-esc.png)
+![Privilege Escalation](results/screenshots/Privilege-Escalation-Detection.png)
 
 ## Result
 Privilege escalation attempts were detected during testing, including failed and successful attempts to switch to root.

@@ -17,7 +17,7 @@ source="/var/log/auth.log"  "Failed password" | rex "from (?<src_ip>\d+\.\d+\.\d
 - Hydra brute-force attack against SSH service
 
 ## Evidence
-![Brute Force Alert](../results/screenshots/bruteforce-detection.png)
+![Brute Force Alert](results/screenshots/SSH-Bruteforce-detection.png)
 
 ## Result
 Multiple failed login attempts were detected from the attacker IP during brute-force simulation.
