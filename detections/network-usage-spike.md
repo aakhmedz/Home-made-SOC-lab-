@@ -14,11 +14,10 @@ index=* | timechart span=1m count
 
 ## Use Case
 - Nmap scanning
-- Reverse shell activity
 - General anomalous behavior
 
 ## Evidence
-![Network Detection](../results/screenshots/Network-detection.png)
+![Network Detection](../results/screenshots/Network-Detection.png)
 
 ## Result
 A spike in activity was observed during Nmap scanning, indicating reconnaissance behavior.
